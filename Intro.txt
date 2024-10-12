@@ -9,4 +9,9 @@ MongoDB is a document database with the scalability and flexibility that you wan
 * Written in C++,Java,Python
 * Released in 2009
 
+Features:
+---------
 
+* Document Based : Store data in json-like documents
+* Indexing : Files can be indexed in MongoDB
+* Rich Query Language : Filter and sort by any Fields and even nested ones
