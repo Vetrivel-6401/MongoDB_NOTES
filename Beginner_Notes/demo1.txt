@@ -1,0 +1,23 @@
+In MongoDB, a database is not actually created until it gets content!
+
+* use DB_Name --- use Employee
+
+1.craete_collection
+
+Way 1: You can create a collection using the createCollection() database method.
+
+        db.createCollection("posts")
+
+Way 2: You can also create a collection during the insert process.
+
+        db.posts.insertOne(object)
+
+
+***We are here assuming object is a valid JavaScript object containing post data:***
+***This will create the "posts" collection if it does not already exist.
+
+Remember: In MongoDB, a collection is not actually created until it gets content!***
+
+
+to show dbs --- show dbs
+to show collections -- show collections

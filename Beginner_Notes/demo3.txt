@@ -1,0 +1,9 @@
+#drop Collections
+
+db.Collections.drop()
+
+#drop Database
+
+use DB_name----> db.dropDatabase()
+
+

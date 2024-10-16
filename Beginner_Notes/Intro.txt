@@ -15,3 +15,23 @@ Features:
 * Document Based : Store data in json-like documents
 * Indexing : Files can be indexed in MongoDB
 * Rich Query Language : Filter and sort by any Fields and even nested ones
+* support Join in queries
+
+Editions:
+-------
+
+1. Community edition -- windows,Linux,Mac
+2.MongoDB Atlas -- deploy MongoDB on cloud.Runs on AWS, AZURE
+
+
+Structure:
+---------------
+                MongoDB--->Database-->Collections-->Documents-->Fields
+
+{
+    'Id':1,
+    'Name':'Vetri',
+    'Department':'IT',
+    'Salary':12000
+}
+                    

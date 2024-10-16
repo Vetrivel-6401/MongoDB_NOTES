@@ -1,0 +1,23 @@
+To retrieve elements from collection find() is used
+
+db.Collections.find()
+
+To select data from a collection in MongoDB, we can use the find() method.
+
+This method accepts a query object. If left empty, all documents will be returned.
+
+
+2. findOne()
+--------------
+To select only one document, we can use the findOne() method.
+
+This method accepts a query object. If left empty, it will return the first document it finds.
+
+Note: This method only returns the first match it finds.
+
+---------------------------------- 
+Querying Data
+To query, or filter, data we can include a query in our find() or findOne() methods.
+
+Example
+db.posts.find( {category: "News"} )
